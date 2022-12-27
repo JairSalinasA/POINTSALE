@@ -1,4 +1,8 @@
-﻿using System;
+﻿using Presentation.Views.Configuration._01_ConfigEmpresa;
+using Presentation.Views.Configuration._02_ConfigDB;
+using Presentation.Views.Configuration._03_ConfigBD;
+using Presentation.Views.Configuration._04_configTicket;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +20,10 @@ namespace Presentation
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            //Application.Run(new Desktop());
+            //Application.Run(new configEmpresa());
+            Application.Run(new configTicket());
+
         }
     }
 }
