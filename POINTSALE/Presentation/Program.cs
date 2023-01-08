@@ -2,6 +2,8 @@
 using Presentation.Views.Configuration._02_ConfigDB;
 using Presentation.Views.Configuration._03_ConfigBD;
 using Presentation.Views.Configuration._04_configTicket;
+using Presentation.Views.Login;
+using Presentation.Views.Usuarios;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,9 +22,15 @@ namespace Presentation
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new Login());
             //Application.Run(new Desktop());
             //Application.Run(new configEmpresa());
-            Application.Run(new configTicket());
+            //Application.Run(new configImpresora());
+            //Application.Run(new configBaseDatos());
+            //Application.Run(new configTicket());
+            //Application.Run(new configUser()); 
+            Application.Run(new Usuarios());
+
 
         }
     }
