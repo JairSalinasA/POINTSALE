@@ -29,8 +29,8 @@ namespace Presentation
             //Application.Run(new configBaseDatos());
             //Application.Run(new configTicket());
             //Application.Run(new configUser()); 
+            //Application.Run(new CreateUser());
             Application.Run(new Usuarios());
-
 
         }
     }
